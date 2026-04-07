@@ -87,18 +87,10 @@ The dashboard is designed to help stakeholders understand sales trends and optim
 * Some products consistently underperform and may need optimization
 
 ---
+## 📸 Sample Visualization
 
-## 📸 Dashboard Preview
-
-![Dashboard](Dashboard1.png)
-![Dashboard](Dashboard2.png)
-### 🏠 Main Dashboard
-
-![Main Dashboard](dashboard_home.png)
-
-### 📊 Best / Worst Sales Analysis
-
-![Best Worst Dashboard](dashboard_analysis.png)
+![Dashboard1](Dashboard1.png)
+![Dashboard2](Dashboard2.png)
 
 ---
 
