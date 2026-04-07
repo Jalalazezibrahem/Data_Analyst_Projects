@@ -1,143 +1,151 @@
-# ✈️ NYC Flights Data Analysis
+# 📊 Data Analyst Projects Portfolio
 
-## 📌 Project Overview
-
-This project focuses on cleaning and exploring the **NYC Flights dataset** to better understand flight operations and delay patterns.
-
-The main goal is to perform a structured **Exploratory Data Analysis (EDA)** and extract meaningful insights about airline performance, delays, and flight distribution.
+Welcome to my Data Analyst portfolio repository.
+This repository showcases real-world projects using **Python and Power BI** to demonstrate skills in data cleaning, analysis, and visualization.
 
 ---
 
-## 🎯 Objectives
+## 🚀 About This Repository
 
-* Understand the dataset structure and features
-* Clean the data (handle missing values and duplicates)
-* Analyze departure and arrival delays
-* Explore patterns across airlines, airports, and destinations
-* Identify key factors affecting flight delays
+This repository is a collection of hands-on data analysis projects designed to:
 
----
-
-## 📂 Dataset
-
-The dataset used in this project is the **NYC Flights dataset**, which contains information about flights departing from New York City, including:
-
-* Flight details (carrier, flight number)
-* Departure and arrival times
-* Delay information
-* Origin and destination airports
-* Time-related features (year, month, day, hour)
-
-> ⚠️ Note: The dataset is not included in this repository. Please add it manually in a `data/` folder:
-
-```
-data/nycflights.csv
-```
+* Apply data analysis techniques to real-world datasets
+* Build interactive dashboards and visualizations
+* Extract meaningful insights to support decision-making
+* Showcase my skills as a Data Analyst
 
 ---
 
-## 🛠️ Technologies Used
+## 📁 Projects Overview
 
-* Python 🐍
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
+### ✈️ 1. NYC Flights Data Analysis (Python)
+
+#### 📌 Description
+
+A data analysis project focused on cleaning and exploring the NYC Flights dataset to understand flight delays and operational patterns.
+
+#### 🛠️ Tools
+
+* Python (Pandas, NumPy)
+* Matplotlib & Seaborn
 * Jupyter Notebook
 
+#### 🔍 Highlights
+
+* Data cleaning (missing values & duplicates)
+* Exploratory Data Analysis (EDA)
+* Delay analysis (departure vs arrival)
+* Correlation analysis
+
 ---
 
-## 🔍 Project Structure
+### 🛒 2. Blinkit Sales Dashboard (Power BI)
 
-```
-NYC-Flights-Analysis/
+#### 📌 Description
+
+An interactive dashboard analyzing retail grocery sales performance across outlets, item categories, and locations.
+
+#### 🛠️ Tools
+
+* Power BI
+* DAX
+* Data Modeling
+
+#### 📊 Highlights
+
+* KPIs (Total Sales, Avg Sales, Ratings)
+* Sales by outlet size & location
+* Item category performance
+* Sales trends over time
+
+---
+
+### 🍕 3. Pizza Sales Dashboard (Power BI)
+
+#### 📌 Description
+
+A business intelligence dashboard analyzing pizza sales to identify top-performing products, customer behavior, and sales trends.
+
+#### 🛠️ Tools
+
+* Power BI
+* DAX
+* Data Modeling
+
+#### 📊 Highlights
+
+* Revenue and order analysis
+* Best & worst-selling products
+* Time-based sales trends
+* Category and size analysis
+
+---
+
+## 📂 Repository Structure
+
+```bash
+Data_Analyst_Projects/
 │
-├── data/
-│   └── nycflights.csv
+├── NYC_Flights_Analysis/
+│   ├── notebook.ipynb
+│   └── README.md
 │
-├── notebooks/
-│   └── nyc_flights_analysis.ipynb
+├── Blinkit_PowerBI_Dashboard/
+│   ├── dashboard.pbix
+│   └── README.md
 │
-├── README.md
-└── requirements.txt (optional)
+├── Pizza_Sales_Dashboard/
+│   ├── pizza_sales_dashboard.pbix
+│   └── README.md
+│
+└── README.md
 ```
 
 ---
 
-## 🧹 Data Cleaning Steps
+## 🧠 Skills Demonstrated
 
-* Removed duplicate records
-* Identified and handled missing values
-* Checked data types and converted where necessary
-* Ensured consistency across key columns
-
----
-
-## 📊 Exploratory Data Analysis
-
-The analysis includes:
-
-* Distribution of airlines and routes
-* Delay analysis (departure & arrival)
-* Comparison of average delays across carriers
-* Relationship between departure delay and arrival delay
-* Grouped analysis by airline, airport, and time
+* Data Cleaning & Preprocessing
+* Exploratory Data Analysis (EDA)
+* Data Visualization
+* Dashboard Development (Power BI)
+* Business Insight Generation
+* Storytelling with Data
 
 ---
 
-## 📈 Key Insights
+## 🎯 Key Learnings
 
-* ✈️ Departure delays have a strong impact on arrival delays
-* 🏢 Some airlines consistently experience higher delays than others
-* 📍 Flight activity is concentrated among a few major carriers and routes
-* ⚠️ Missing values are mainly present in delay-related columns
-
----
-
-## 🚀 How to Run the Project
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/Jalalazezibrahem/nyc-flights-analysis.git
-```
-
-2. Navigate to the project folder:
-
-```bash
-cd nyc-flights-analysis
-```
-
-3. Install dependencies (optional):
-
-```bash
-pip install -r requirements.txt
-```
-
-4. Run the notebook:
-
-```bash
-jupyter notebook
-```
+* Handling real-world messy datasets
+* Building interactive dashboards for business users
+* Translating data into actionable insights
+* Improving data communication and presentation
 
 ---
 
-## 💡 Future Improvements
+## 🚀 Future Improvements
 
-* Build a predictive model for flight delays
-* Perform advanced feature engineering
-* Add interactive visualizations (Plotly / Dash)
-* Deploy the project as a web app
+* Add SQL-based analysis projects
+* Build machine learning models for prediction
+* Create interactive dashboards using web frameworks (Streamlit / Dash)
+* Enhance projects with advanced visualizations
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 About Me
 
-**Jalal Ibrahim**
-AI Engineering Student
+AI Engineering student with a strong interest in **Data Analysis and Business Intelligence**.
+Currently focused on building practical projects to develop real-world analytical skills.
+
+---
+
+## 📬 Contact
+
+* LinkedIn: (https://www.linkedin.com/in/jalal-ibrahim-128383343)
+* GitHub: https://github.com/Jalalazezibrahem
 
 ---
 
 ## ⭐ Support
 
-If you found this project useful, feel free to ⭐ the repository!
+If you found this repository useful, feel free to ⭐ it!
